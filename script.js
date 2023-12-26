@@ -14,7 +14,7 @@ noteDate.addEventListener('input', ()=>{
 })
 
 const { MongoClient } = require('mongodb');
-const uri = "mongodb+srv://sheyapetrus:VMC0kGtSmr48aONo@todocluster.a28gapt.mongodb.net/?retryWrites=true&w=majority";
+const uri = "";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
