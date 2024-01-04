@@ -1,0 +1,18 @@
+
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.note-input{
+    height: 90%;
+}
+.strikethrough{
+    text-decoration: line-through;
+}
